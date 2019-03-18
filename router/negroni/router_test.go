@@ -13,10 +13,10 @@ import (
 
 	"github.com/urfave/negroni"
 
-	"github.com/devopsfaith/krakend/config"
-	"github.com/devopsfaith/krakend/logging"
-	"github.com/devopsfaith/krakend/proxy"
-	"github.com/devopsfaith/krakend/router"
+	"github.com/vm-affekt/krakend/config"
+	"github.com/vm-affekt/krakend/logging"
+	"github.com/vm-affekt/krakend/proxy"
+	"github.com/vm-affekt/krakend/router"
 )
 
 func TestDefaultFactory_ok(t *testing.T) {

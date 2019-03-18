@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/devopsfaith/krakend/register"
+	"github.com/vm-affekt/krakend/register"
 )
 
 func TestNoOpDecoder(t *testing.T) {

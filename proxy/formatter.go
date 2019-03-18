@@ -3,7 +3,7 @@ package proxy
 import (
 	"strings"
 
-	"github.com/devopsfaith/krakend/config"
+	"github.com/vm-affekt/krakend/config"
 )
 
 // EntityFormatter formats the response data

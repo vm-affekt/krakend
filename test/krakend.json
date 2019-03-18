@@ -17,7 +17,7 @@
                 }
             ],
             "extra_config": {
-                "github.com/devopsfaith/krakend/proxy": {
+                "github.com/vm-affekt/krakend/proxy": {
                     "static": {
                         "strategy": "errored",
                         "data": {
@@ -104,7 +104,7 @@
                 }
             ],
             "extra_config": {
-                "github.com/devopsfaith/krakend/proxy": {
+                "github.com/vm-affekt/krakend/proxy": {
                     "static": {
                         "strategy": "incomplete",
                         "data": {
@@ -124,7 +124,7 @@
                     ],
                     "url_pattern": "/",
                     "extra_config": {
-                        "github.com/devopsfaith/krakend/http": {
+                        "github.com/vm-affekt/krakend/http": {
                             "return_error_details": "backend_a"
                         }
                     }
@@ -135,7 +135,7 @@
                     ],
                     "url_pattern": "/",
                     "extra_config": {
-                        "github.com/devopsfaith/krakend/http": {
+                        "github.com/vm-affekt/krakend/http": {
                             "return_error_details": "backend_b"
                         }
                     }
@@ -229,7 +229,7 @@
         {
           "endpoint": "/sequential/ok/{param}",
           "extra_config": {
-            "github.com/devopsfaith/krakend/proxy": {
+            "github.com/vm-affekt/krakend/proxy": {
               "sequential": true
             }
           },
@@ -249,7 +249,7 @@
         {
           "endpoint": "/sequential/ko/first/{param}",
           "extra_config": {
-            "github.com/devopsfaith/krakend/proxy": {
+            "github.com/vm-affekt/krakend/proxy": {
               "sequential": true
             }
           },
@@ -269,7 +269,7 @@
         {
           "endpoint": "/sequential/ko/last/{param}",
           "extra_config": {
-            "github.com/devopsfaith/krakend/proxy": {
+            "github.com/vm-affekt/krakend/proxy": {
               "sequential": true
             }
           },

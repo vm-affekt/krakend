@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/devopsfaith/krakend/encoding"
+	"github.com/vm-affekt/krakend/encoding"
 )
 
 const (
@@ -258,7 +258,7 @@ type ConfigGetter func(ExtraConfig) interface{}
 // DefaultConfigGetter is the Default implementation for ConfigGetter, it just returns the ExtraConfig map.
 func DefaultConfigGetter(extra ExtraConfig) interface{} { return extra }
 
-const defaultNamespace = "github.com/devopsfaith/krakend/config"
+const defaultNamespace = "github.com/vm-affekt/krakend/config"
 
 // ConfigGetters map than match namespaces and ConfigGetter so the components knows which type to expect returned by the
 // ConfigGetter ie: if we look for the defaultNamespace in the map, we will get the DefaultConfigGetter implementation

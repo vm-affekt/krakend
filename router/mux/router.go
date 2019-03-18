@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/devopsfaith/krakend/config"
-	"github.com/devopsfaith/krakend/logging"
-	"github.com/devopsfaith/krakend/proxy"
-	"github.com/devopsfaith/krakend/router"
+	"github.com/vm-affekt/krakend/config"
+	"github.com/vm-affekt/krakend/logging"
+	"github.com/vm-affekt/krakend/proxy"
+	"github.com/vm-affekt/krakend/router"
 )
 
 // DefaultDebugPattern is the default pattern used to define the debug endpoint

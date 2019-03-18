@@ -7,11 +7,11 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/devopsfaith/krakend/config"
+	"github.com/vm-affekt/krakend/config"
 )
 
 // Namespace to be used in extra config
-const Namespace = "github.com/devopsfaith/krakend/http"
+const Namespace = "github.com/vm-affekt/krakend/http"
 
 // ErrInvalidStatusCode is the error returned by the http proxy when the received status code
 // is not a 200 nor a 201

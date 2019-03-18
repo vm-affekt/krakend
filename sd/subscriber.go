@@ -1,7 +1,7 @@
 // Package sd defines some interfaces and implementations for service discovery
 package sd
 
-import "github.com/devopsfaith/krakend/config"
+import "github.com/vm-affekt/krakend/config"
 
 // Subscriber keeps the set of backend hosts up to date
 type Subscriber interface {

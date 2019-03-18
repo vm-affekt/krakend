@@ -8,10 +8,10 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/devopsfaith/krakend/config"
-	"github.com/devopsfaith/krakend/logging"
-	"github.com/devopsfaith/krakend/proxy"
-	"github.com/devopsfaith/krakend/router"
+	"github.com/vm-affekt/krakend/config"
+	"github.com/vm-affekt/krakend/logging"
+	"github.com/vm-affekt/krakend/proxy"
+	"github.com/vm-affekt/krakend/router"
 )
 
 // RunServerFunc is a func that will run the http Server with the given params.

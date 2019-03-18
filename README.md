@@ -2,14 +2,14 @@
 
 # The KrakenD framework
 
-[![Travis-CI](https://travis-ci.org/devopsfaith/krakend.svg?branch=master)](https://travis-ci.org/devopsfaith/krakend) [![Go Report Card](https://goreportcard.com/badge/github.com/devopsfaith/krakend)](https://goreportcard.com/report/github.com/devopsfaith/krakend) [![Coverage Status](https://coveralls.io/repos/github/devopsfaith/krakend/badge.svg?branch=master)](https://coveralls.io/github/devopsfaith/krakend?branch=master) [![GoDoc](https://godoc.org/github.com/devopsfaith/krakend?status.svg)](https://godoc.org/github.com/devopsfaith/krakend) [![Docker Pulls](https://img.shields.io/docker/pulls/devopsfaith/krakend.svg)](https://hub.docker.com/r/devopsfaith/krakend/) [![Slack Widget](https://img.shields.io/badge/join-us%20on%20slack-gray.svg?longCache=true&logo=slack&colorB=red)](https://gophers.slack.com/messages/krakend)
+[![Travis-CI](https://travis-ci.org/vm-affekt/krakend.svg?branch=master)](https://travis-ci.org/vm-affekt/krakend) [![Go Report Card](https://goreportcard.com/badge/github.com/vm-affekt/krakend)](https://goreportcard.com/report/github.com/vm-affekt/krakend) [![Coverage Status](https://coveralls.io/repos/github/vm-affekt/krakend/badge.svg?branch=master)](https://coveralls.io/github/vm-affekt/krakend?branch=master) [![GoDoc](https://godoc.org/github.com/vm-affekt/krakend?status.svg)](https://godoc.org/github.com/vm-affekt/krakend) [![Docker Pulls](https://img.shields.io/docker/pulls/vm-affekt/krakend.svg)](https://hub.docker.com/r/vm-affekt/krakend/) [![Slack Widget](https://img.shields.io/badge/join-us%20on%20slack-gray.svg?longCache=true&logo=slack&colorB=red)](https://gophers.slack.com/messages/krakend)
 
 
 An open framework to assemble ultra performance API Gateways with middlewares; core service of the [KrakenD API Gateway](http://www.krakend.io).
 
 Looking for the API gateway ready to use?
 
-[Site](http://www.krakend.io/) | [Download](http://www.krakend.io/download/) | [Build](https://github.com/devopsfaith/krakend-ce) | [Documentation](http://www.krakend.io/docs/overview/introduction/) | [Blog](http://www.krakend.io/blog)
+[Site](http://www.krakend.io/) | [Download](http://www.krakend.io/download/) | [Build](https://github.com/vm-affekt/krakend-ce) | [Documentation](http://www.krakend.io/docs/overview/introduction/) | [Blog](http://www.krakend.io/blog)
 
 
 ## Motivation
@@ -48,7 +48,7 @@ The source code on which the [KrakenD](http://www.krakend.io) service core is bu
 
 Use this repository if want to **build from source your API Gateway** or if you want to **reuse the components in another application**.
 
-If you need the KrakenD API Gateway [download the binary for your architecture](http://www.krakend.io/download) or [build it yourself](https://github.com/devopsfaith/krakend-ce).
+If you need the KrakenD API Gateway [download the binary for your architecture](http://www.krakend.io/download) or [build it yourself](https://github.com/vm-affekt/krakend-ce).
 
 
 ## Library Usage
@@ -66,10 +66,10 @@ A ready to use example:
         "log"
         "os"
 
-        "github.com/devopsfaith/krakend/config"
-        "github.com/devopsfaith/krakend/logging"
-        "github.com/devopsfaith/krakend/proxy"
-        "github.com/devopsfaith/krakend/router/gin"
+        "github.com/vm-affekt/krakend/config"
+        "github.com/vm-affekt/krakend/logging"
+        "github.com/vm-affekt/krakend/proxy"
+        "github.com/vm-affekt/krakend/router/gin"
     )
 
     func main() {
@@ -101,15 +101,15 @@ Visit the [framework overview](/docs/OVERVIEW.md) for more details about the com
 
 ### Examples
 
-The project [KrakenD examples](https://github.com/devopsfaith/krakend-examples)
+The project [KrakenD examples](https://github.com/vm-affekt/krakend-examples)
 
-1. [gin router](https://github.com/devopsfaith/krakend-examples/tree/master/gin/)
-2. [mux router](https://github.com/devopsfaith/krakend-examples/tree/master/mux/)
-3. [gorilla router](https://github.com/devopsfaith/krakend-examples/tree/master/gorilla/)
-4. [negroni middlewares](https://github.com/devopsfaith/krakend-examples/tree/master/negroni/)
-5. [dns srv service discovery](https://github.com/devopsfaith/krakend-examples/tree/master/dns/)
-6. [jwt middlewares](https://github.com/devopsfaith/krakend-examples/tree/master/jwt/)
-7. [httpcache based proxies](https://github.com/devopsfaith/krakend-examples/tree/master/httpcache/)
+1. [gin router](https://github.com/vm-affekt/krakend-examples/tree/master/gin/)
+2. [mux router](https://github.com/vm-affekt/krakend-examples/tree/master/mux/)
+3. [gorilla router](https://github.com/vm-affekt/krakend-examples/tree/master/gorilla/)
+4. [negroni middlewares](https://github.com/vm-affekt/krakend-examples/tree/master/negroni/)
+5. [dns srv service discovery](https://github.com/vm-affekt/krakend-examples/tree/master/dns/)
+6. [jwt middlewares](https://github.com/vm-affekt/krakend-examples/tree/master/jwt/)
+7. [httpcache based proxies](https://github.com/vm-affekt/krakend-examples/tree/master/httpcache/)
 
 ## Configuration file
 
@@ -123,12 +123,12 @@ Check out the [benchmark results](/docs/BENCHMARKS.md) of several KrakenD compon
 We are always happy to receive contributions. If you have questions, suggestions, bugs please open an issue.
 If you want to submit the code, create the issue and send us a pull request for review.
 
-If you want to contribute on the KrakenD API Gateway binary see the [builder](https://github.com/devopsfaith/krakend-ce))
+If you want to contribute on the KrakenD API Gateway binary see the [builder](https://github.com/vm-affekt/krakend-ce))
 
 
 ## Want more?
 - Follow the [KrakenD blog](http://www.krakend.io/blog/)
-- Follow our [twitter account](https://twitter.com/devopsfaith)
+- Follow our [twitter account](https://twitter.com/vm-affekt)
 - **Read the [documentation](http://www.krakend.io/docs/overview/introduction/)**
 
 Enjoy the KrakenD!

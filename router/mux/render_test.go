@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/devopsfaith/krakend/config"
-	"github.com/devopsfaith/krakend/encoding"
-	"github.com/devopsfaith/krakend/proxy"
+	"github.com/vm-affekt/krakend/config"
+	"github.com/vm-affekt/krakend/encoding"
+	"github.com/vm-affekt/krakend/proxy"
 )
 
 func TestRender_unknown(t *testing.T) {

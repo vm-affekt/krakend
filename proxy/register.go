@@ -1,7 +1,7 @@
 package proxy
 
 import (
-	"github.com/devopsfaith/krakend/register"
+	"github.com/vm-affekt/krakend/register"
 )
 
 func NewRegister() *Register {

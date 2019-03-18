@@ -6,7 +6,7 @@ import (
 	"plugin"
 	"strings"
 
-	"github.com/devopsfaith/krakend/config"
+	"github.com/vm-affekt/krakend/config"
 )
 
 // Plugin is the interface of the loaded plugins

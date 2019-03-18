@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/devopsfaith/krakend/config"
-	"github.com/devopsfaith/krakend/sd"
+	"github.com/vm-affekt/krakend/config"
+	"github.com/vm-affekt/krakend/sd"
 )
 
 func TestSubscriber_New(t *testing.T) {

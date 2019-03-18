@@ -6,11 +6,11 @@ import (
 	"errors"
 	"io"
 
-	"github.com/devopsfaith/krakend/config"
+	"github.com/vm-affekt/krakend/config"
 )
 
 // Namespace to be used in extra config
-const Namespace = "github.com/devopsfaith/krakend/proxy"
+const Namespace = "github.com/vm-affekt/krakend/proxy"
 
 // Metadata is the Metadata of the Response which contains Headers and StatusCode
 type Metadata struct {

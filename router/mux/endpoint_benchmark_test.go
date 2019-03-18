@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/devopsfaith/krakend/config"
-	"github.com/devopsfaith/krakend/proxy"
+	"github.com/vm-affekt/krakend/config"
+	"github.com/vm-affekt/krakend/proxy"
 )
 
 func BenchmarkEndpointHandler_ko(b *testing.B) {

@@ -22,7 +22,7 @@ It's also known as a *Backend* *For* *Frontend* as it sits between the client (f
 
 * What is KrakenD
 
-.image https://raw.githubusercontent.com/devopsfaith/krakend/master/docs/images/krakend-gateway.png
+.image https://raw.githubusercontent.com/vm-affekt/krakend/master/docs/images/krakend-gateway.png
 
 * Use cases
 
@@ -269,7 +269,7 @@ Lucky us, in the later version of the stdlib, the `http.Server` exposes a method
 
 All the critical components of the framework have a benchmark, so it's easy to detect performance regressions
 
-.link https://github.com/devopsfaith/krakend/blob/master/docs/BENCHMARKS.md#request-generator
+.link https://github.com/vm-affekt/krakend/blob/master/docs/BENCHMARKS.md#request-generator
 
 For components affected by the size of the input, the focus is to keep them with a constant memory consumption (_O(1)_) and a lineal or better time consumption (_O(N)_).
 
